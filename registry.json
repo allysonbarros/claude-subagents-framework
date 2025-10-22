@@ -1,0 +1,47 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-10-22",
+  "categories": [
+    {
+      "id": "strategists",
+      "name": "Estrategistas",
+      "description": "Agentes especializados em planejamento estratégico e arquitetura"
+    },
+    {
+      "id": "researchers",
+      "name": "Pesquisadores",
+      "description": "Agentes especializados em exploração de código e pesquisa técnica"
+    },
+    {
+      "id": "designers",
+      "name": "Designers",
+      "description": "Agentes especializados em design de interface e experiência do usuário"
+    },
+    {
+      "id": "frontend",
+      "name": "Frontend",
+      "description": "Agentes especializados em desenvolvimento de interfaces web"
+    },
+    {
+      "id": "backend",
+      "name": "Backend",
+      "description": "Agentes especializados em APIs e lógica de negócio"
+    },
+    {
+      "id": "testers",
+      "name": "Testadores",
+      "description": "Agentes especializados em testes automatizados e QA"
+    },
+    {
+      "id": "devops",
+      "name": "DevOps",
+      "description": "Agentes especializados em CI/CD e infraestrutura"
+    },
+    {
+      "id": "analytics",
+      "name": "Analytics",
+      "description": "Agentes especializados em análise de dados e experimentos"
+    }
+  ],
+  "agents": []
+}
