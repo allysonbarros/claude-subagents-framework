@@ -13,7 +13,14 @@ Os agentes pesquisadores ajudam a:
 
 ## Agentes Disponíveis
 
-*Adicione seus agentes aqui conforme forem criados*
+### [Code Explorer](./code-explorer.md)
+Especializado em exploração e análise de codebases complexas. Use para mapear estruturas de código, entender fluxos e criar documentação.
+
+### [Tech Scout](./tech-scout.md)
+Especializado em pesquisa e avaliação de tecnologias e bibliotecas. Use para comparar frameworks, avaliar alternativas e fazer recomendações técnicas.
+
+### [Dependency Analyzer](./dependency-analyzer.md)
+Especializado em análise de dependências e supply chain security. Use para auditar vulnerabilidades, otimizar bundles e gerenciar updates.
 
 ## Casos de Uso Comuns
 

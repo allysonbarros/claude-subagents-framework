@@ -13,7 +13,14 @@ Os agentes testadores ajudam a:
 
 ## Agentes Disponíveis
 
-*Adicione seus agentes aqui conforme forem criados*
+### [Unit Tester](./unit-tester.md)
+Especializado em testes unitários e TDD. Use para criar testes Jest/Vitest, implementar TDD, fazer mocking e aumentar cobertura.
+
+### [E2E Tester](./e2e-tester.md)
+Especializado em testes end-to-end com Cypress e Playwright. Use para implementar testes de integração, fluxos críticos e visual regression.
+
+### [Test Strategist](./test-strategist.md)
+Especializado em estratégia de testes e qualidade. Use para definir test pyramids, configurar CI, estabelecer quality gates e otimizar suites de teste.
 
 ## Casos de Uso Comuns
 
