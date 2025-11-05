@@ -1,11 +1,12 @@
 {
-  "name": "claude-subagents-cli",
+  "name": "rambo-code-experts",
   "version": "1.0.0",
-  "description": "CLI tool to easily manage and install Claude Code subagents",
+  "description": "Rambo Code Experts Agents - Elite AI agents for code excellence",
   "main": "src/index.js",
   "bin": {
-    "csf": "./bin/csf.js",
-    "claude-subagents": "./bin/csf.js"
+    "rambo": "./bin/csf.js",
+    "rambo-agents": "./bin/csf.js",
+    "csf": "./bin/csf.js"
   },
   "scripts": {
     "start": "node bin/csf.js",
