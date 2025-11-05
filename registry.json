@@ -1,5 +1,5 @@
 {
-  "version": "2.0.0",
+  "version": "2.1.0",
   "lastUpdated": "2025-11-05",
   "categories": [
     {
@@ -60,7 +60,12 @@
       "category": "strategists",
       "version": "1.0.0",
       "description": "Especializado em análise de produto, definição de requisitos e priorização de features",
-      "tags": ["product", "requirements", "roadmap", "prd"]
+      "tags": [
+        "product",
+        "requirements",
+        "roadmap",
+        "prd"
+      ]
     },
     {
       "id": "tech-architect",
@@ -68,7 +73,12 @@
       "category": "strategists",
       "version": "1.0.0",
       "description": "Especializado em arquitetura de sistemas e decisões técnicas de alto nível",
-      "tags": ["architecture", "design-patterns", "technical-decisions", "scalability"]
+      "tags": [
+        "architecture",
+        "design-patterns",
+        "technical-decisions",
+        "scalability"
+      ]
     },
     {
       "id": "api-designer",
@@ -76,7 +86,13 @@
       "category": "strategists",
       "version": "1.0.0",
       "description": "Especializado em design de APIs RESTful e GraphQL",
-      "tags": ["api", "rest", "graphql", "openapi", "swagger"]
+      "tags": [
+        "api",
+        "rest",
+        "graphql",
+        "openapi",
+        "swagger"
+      ]
     },
     {
       "id": "code-explorer",
@@ -84,7 +100,12 @@
       "category": "researchers",
       "version": "1.0.0",
       "description": "Especializado em exploração e análise de codebases complexas",
-      "tags": ["code-analysis", "exploration", "documentation", "onboarding"]
+      "tags": [
+        "code-analysis",
+        "exploration",
+        "documentation",
+        "onboarding"
+      ]
     },
     {
       "id": "tech-scout",
@@ -92,7 +113,13 @@
       "category": "researchers",
       "version": "1.0.0",
       "description": "Especializado em pesquisa e avaliação de tecnologias e bibliotecas",
-      "tags": ["research", "libraries", "frameworks", "comparison", "evaluation"]
+      "tags": [
+        "research",
+        "libraries",
+        "frameworks",
+        "comparison",
+        "evaluation"
+      ]
     },
     {
       "id": "dependency-analyzer",
@@ -100,7 +127,13 @@
       "category": "researchers",
       "version": "1.0.0",
       "description": "Especializado em análise de dependências e supply chain security",
-      "tags": ["dependencies", "security", "vulnerabilities", "audit", "optimization"]
+      "tags": [
+        "dependencies",
+        "security",
+        "vulnerabilities",
+        "audit",
+        "optimization"
+      ]
     },
     {
       "id": "mcp-integrator",
@@ -108,7 +141,13 @@
       "category": "researchers",
       "version": "1.0.0",
       "description": "Especializado em integração de serviços via Model Context Protocol (MCP)",
-      "tags": ["mcp", "model-context-protocol", "integrations", "tools", "claude"]
+      "tags": [
+        "mcp",
+        "model-context-protocol",
+        "integrations",
+        "tools",
+        "claude"
+      ]
     },
     {
       "id": "ui-designer",
@@ -116,7 +155,13 @@
       "category": "designers",
       "version": "1.0.0",
       "description": "Especializado em design de interfaces de usuário e componentes visuais",
-      "tags": ["ui", "interface", "components", "responsive", "accessibility"]
+      "tags": [
+        "ui",
+        "interface",
+        "components",
+        "responsive",
+        "accessibility"
+      ]
     },
     {
       "id": "ux-specialist",
@@ -124,7 +169,13 @@
       "category": "designers",
       "version": "1.0.0",
       "description": "Especializado em experiência do usuário e usabilidade",
-      "tags": ["ux", "usability", "user-journey", "interaction-design", "flows"]
+      "tags": [
+        "ux",
+        "usability",
+        "user-journey",
+        "interaction-design",
+        "flows"
+      ]
     },
     {
       "id": "design-system-builder",
@@ -132,7 +183,13 @@
       "category": "designers",
       "version": "1.0.0",
       "description": "Especializado em criar e manter design systems escaláveis",
-      "tags": ["design-system", "tokens", "components", "guidelines", "consistency"]
+      "tags": [
+        "design-system",
+        "tokens",
+        "components",
+        "guidelines",
+        "consistency"
+      ]
     },
     {
       "id": "react-specialist",
@@ -140,7 +197,13 @@
       "category": "frontend",
       "version": "1.0.0",
       "description": "Especializado em desenvolvimento React moderno com hooks e boas práticas",
-      "tags": ["react", "hooks", "components", "typescript", "patterns"]
+      "tags": [
+        "react",
+        "hooks",
+        "components",
+        "typescript",
+        "patterns"
+      ]
     },
     {
       "id": "state-manager",
@@ -148,7 +211,13 @@
       "category": "frontend",
       "version": "1.0.0",
       "description": "Especializado em gerenciamento de estado com Redux, Zustand, Context API",
-      "tags": ["state-management", "redux", "zustand", "context-api", "jotai"]
+      "tags": [
+        "state-management",
+        "redux",
+        "zustand",
+        "context-api",
+        "jotai"
+      ]
     },
     {
       "id": "performance-optimizer",
@@ -156,7 +225,13 @@
       "category": "frontend",
       "version": "1.0.0",
       "description": "Especializado em otimização de performance e Core Web Vitals",
-      "tags": ["performance", "optimization", "web-vitals", "bundle-size", "lazy-loading"]
+      "tags": [
+        "performance",
+        "optimization",
+        "web-vitals",
+        "bundle-size",
+        "lazy-loading"
+      ]
     },
     {
       "id": "api-developer",
@@ -164,7 +239,14 @@
       "category": "backend",
       "version": "1.0.0",
       "description": "Especializado em desenvolvimento de APIs RESTful e GraphQL",
-      "tags": ["api", "rest", "graphql", "express", "nodejs", "middleware"]
+      "tags": [
+        "api",
+        "rest",
+        "graphql",
+        "express",
+        "nodejs",
+        "middleware"
+      ]
     },
     {
       "id": "database-specialist",
@@ -172,7 +254,14 @@
       "category": "backend",
       "version": "1.0.0",
       "description": "Especializado em design de banco de dados e otimização de queries",
-      "tags": ["database", "sql", "postgresql", "mongodb", "orm", "migrations"]
+      "tags": [
+        "database",
+        "sql",
+        "postgresql",
+        "mongodb",
+        "orm",
+        "migrations"
+      ]
     },
     {
       "id": "security-specialist",
@@ -180,7 +269,14 @@
       "category": "backend",
       "version": "1.0.0",
       "description": "Especializado em segurança de aplicações e OWASP",
-      "tags": ["security", "authentication", "authorization", "jwt", "owasp", "encryption"]
+      "tags": [
+        "security",
+        "authentication",
+        "authorization",
+        "jwt",
+        "owasp",
+        "encryption"
+      ]
     },
     {
       "id": "supabase-specialist",
@@ -188,7 +284,14 @@
       "category": "backend",
       "version": "1.0.0",
       "description": "Especializado em desenvolvimento com Supabase (PostgreSQL, Auth, Storage, Edge Functions)",
-      "tags": ["supabase", "baas", "postgresql", "authentication", "realtime", "edge-functions"]
+      "tags": [
+        "supabase",
+        "baas",
+        "postgresql",
+        "authentication",
+        "realtime",
+        "edge-functions"
+      ]
     },
     {
       "id": "unit-tester",
@@ -196,7 +299,13 @@
       "category": "testers",
       "version": "1.0.0",
       "description": "Especializado em testes unitários e TDD",
-      "tags": ["unit-testing", "jest", "tdd", "mocking", "coverage"]
+      "tags": [
+        "unit-testing",
+        "jest",
+        "tdd",
+        "mocking",
+        "coverage"
+      ]
     },
     {
       "id": "e2e-tester",
@@ -204,7 +313,13 @@
       "category": "testers",
       "version": "1.0.0",
       "description": "Especializado em testes end-to-end com Cypress e Playwright",
-      "tags": ["e2e", "cypress", "playwright", "integration-testing", "visual-regression"]
+      "tags": [
+        "e2e",
+        "cypress",
+        "playwright",
+        "integration-testing",
+        "visual-regression"
+      ]
     },
     {
       "id": "test-strategist",
@@ -212,7 +327,13 @@
       "category": "testers",
       "version": "1.0.0",
       "description": "Especializado em estratégia de testes e qualidade",
-      "tags": ["test-strategy", "test-pyramid", "coverage-analysis", "ci-cd", "quality-gates"]
+      "tags": [
+        "test-strategy",
+        "test-pyramid",
+        "coverage-analysis",
+        "ci-cd",
+        "quality-gates"
+      ]
     },
     {
       "id": "ci-cd-engineer",
@@ -220,7 +341,14 @@
       "category": "devops",
       "version": "1.0.0",
       "description": "Especializado em pipelines de CI/CD e automação",
-      "tags": ["ci-cd", "github-actions", "gitlab-ci", "jenkins", "deployment", "automation"]
+      "tags": [
+        "ci-cd",
+        "github-actions",
+        "gitlab-ci",
+        "jenkins",
+        "deployment",
+        "automation"
+      ]
     },
     {
       "id": "docker-specialist",
@@ -228,7 +356,13 @@
       "category": "devops",
       "version": "1.0.0",
       "description": "Especializado em Docker e containerização",
-      "tags": ["docker", "containers", "docker-compose", "optimization", "multi-stage"]
+      "tags": [
+        "docker",
+        "containers",
+        "docker-compose",
+        "optimization",
+        "multi-stage"
+      ]
     },
     {
       "id": "infrastructure-engineer",
@@ -236,7 +370,14 @@
       "category": "devops",
       "version": "1.0.0",
       "description": "Especializado em infraestrutura como código e Kubernetes",
-      "tags": ["infrastructure", "terraform", "kubernetes", "aws", "iac", "cloud"]
+      "tags": [
+        "infrastructure",
+        "terraform",
+        "kubernetes",
+        "aws",
+        "iac",
+        "cloud"
+      ]
     },
     {
       "id": "docker-manifest-builder",
@@ -244,7 +385,13 @@
       "category": "devops",
       "version": "1.0.0",
       "description": "Especializado em criar Dockerfiles otimizados e arquivos docker-compose.yml",
-      "tags": ["docker", "dockerfile", "docker-compose", "containerization", "multi-stage-build"]
+      "tags": [
+        "docker",
+        "dockerfile",
+        "docker-compose",
+        "containerization",
+        "multi-stage-build"
+      ]
     },
     {
       "id": "k8s-manifest-builder",
@@ -252,7 +399,14 @@
       "category": "devops",
       "version": "1.0.0",
       "description": "Especializado em criar manifests Kubernetes (Deployments, Services, Ingress, Helm charts)",
-      "tags": ["kubernetes", "k8s", "manifests", "helm", "deployments", "yaml"]
+      "tags": [
+        "kubernetes",
+        "k8s",
+        "manifests",
+        "helm",
+        "deployments",
+        "yaml"
+      ]
     },
     {
       "id": "event-tracker",
@@ -260,7 +414,14 @@
       "category": "analytics",
       "version": "1.0.0",
       "description": "Especializado em implementação de tracking de eventos",
-      "tags": ["analytics", "tracking", "google-analytics", "mixpanel", "amplitude", "events"]
+      "tags": [
+        "analytics",
+        "tracking",
+        "google-analytics",
+        "mixpanel",
+        "amplitude",
+        "events"
+      ]
     },
     {
       "id": "ab-tester",
@@ -268,7 +429,13 @@
       "category": "analytics",
       "version": "1.0.0",
       "description": "Especializado em testes A/B e feature flags",
-      "tags": ["ab-testing", "experimentation", "feature-flags", "statistical-analysis", "optimization"]
+      "tags": [
+        "ab-testing",
+        "experimentation",
+        "feature-flags",
+        "statistical-analysis",
+        "optimization"
+      ]
     },
     {
       "id": "metrics-analyst",
@@ -276,7 +443,14 @@
       "category": "analytics",
       "version": "1.0.0",
       "description": "Especializado em análise de métricas e KPIs",
-      "tags": ["metrics", "kpis", "dashboards", "data-analysis", "funnels", "cohorts"]
+      "tags": [
+        "metrics",
+        "kpis",
+        "dashboards",
+        "data-analysis",
+        "funnels",
+        "cohorts"
+      ]
     },
     {
       "id": "django-specialist",
@@ -284,7 +458,14 @@
       "category": "backend",
       "version": "1.0.0",
       "description": "Especializado em desenvolvimento web com Django framework",
-      "tags": ["django", "python", "web", "orm", "rest-framework", "admin"]
+      "tags": [
+        "django",
+        "python",
+        "web",
+        "orm",
+        "rest-framework",
+        "admin"
+      ]
     },
     {
       "id": "fastapi-specialist",
@@ -292,7 +473,14 @@
       "category": "backend",
       "version": "1.0.0",
       "description": "Especializado em APIs modernas e assíncronas com FastAPI",
-      "tags": ["fastapi", "python", "async", "api", "pydantic", "high-performance"]
+      "tags": [
+        "fastapi",
+        "python",
+        "async",
+        "api",
+        "pydantic",
+        "high-performance"
+      ]
     },
     {
       "id": "flask-specialist",
@@ -300,7 +488,13 @@
       "category": "backend",
       "version": "1.0.0",
       "description": "Especializado em aplicações web lightweight com Flask",
-      "tags": ["flask", "python", "web", "micro-framework", "blueprints"]
+      "tags": [
+        "flask",
+        "python",
+        "web",
+        "micro-framework",
+        "blueprints"
+      ]
     },
     {
       "id": "langchain-specialist",
@@ -308,7 +502,14 @@
       "category": "ai-ml",
       "version": "1.0.0",
       "description": "Especializado em aplicações com LLMs usando LangChain e LangGraph",
-      "tags": ["langchain", "langgraph", "llm", "agents", "rag", "ai"]
+      "tags": [
+        "langchain",
+        "langgraph",
+        "llm",
+        "agents",
+        "rag",
+        "ai"
+      ]
     },
     {
       "id": "gradio-specialist",
@@ -316,7 +517,13 @@
       "category": "ai-ml",
       "version": "1.0.0",
       "description": "Especializado em interfaces ML com Gradio",
-      "tags": ["gradio", "ml", "ui", "demo", "python"]
+      "tags": [
+        "gradio",
+        "ml",
+        "ui",
+        "demo",
+        "python"
+      ]
     },
     {
       "id": "streamlit-specialist",
@@ -324,7 +531,13 @@
       "category": "ai-ml",
       "version": "1.0.0",
       "description": "Especializado em data apps e dashboards com Streamlit",
-      "tags": ["streamlit", "dashboard", "data-viz", "python", "ml-apps"]
+      "tags": [
+        "streamlit",
+        "dashboard",
+        "data-viz",
+        "python",
+        "ml-apps"
+      ]
     },
     {
       "id": "dbt-specialist",
@@ -332,7 +545,13 @@
       "category": "data-engineering",
       "version": "1.0.0",
       "description": "Especializado em transformação de dados com dbt (data build tool)",
-      "tags": ["dbt", "sql", "data-transformation", "testing", "documentation"]
+      "tags": [
+        "dbt",
+        "sql",
+        "data-transformation",
+        "testing",
+        "documentation"
+      ]
     },
     {
       "id": "snowflake-specialist",
@@ -340,7 +559,13 @@
       "category": "data-engineering",
       "version": "1.0.0",
       "description": "Especializado em Snowflake data warehouse e cloud analytics",
-      "tags": ["snowflake", "data-warehouse", "sql", "snowpipe", "streams"]
+      "tags": [
+        "snowflake",
+        "data-warehouse",
+        "sql",
+        "snowpipe",
+        "streams"
+      ]
     },
     {
       "id": "databricks-specialist",
@@ -348,7 +573,13 @@
       "category": "data-engineering",
       "version": "1.0.0",
       "description": "Especializado em Databricks lakehouse com Delta Lake e Spark",
-      "tags": ["databricks", "delta-lake", "spark", "ml", "unity-catalog"]
+      "tags": [
+        "databricks",
+        "delta-lake",
+        "spark",
+        "ml",
+        "unity-catalog"
+      ]
     },
     {
       "id": "spark-specialist",
@@ -356,7 +587,103 @@
       "category": "data-engineering",
       "version": "1.0.0",
       "description": "Especializado em processamento big data com Apache Spark",
-      "tags": ["spark", "pyspark", "big-data", "distributed", "ml"]
+      "tags": [
+        "spark",
+        "pyspark",
+        "big-data",
+        "distributed",
+        "ml"
+      ]
+    },
+    {
+      "id": "crewai-specialist",
+      "name": "CrewAI Specialist",
+      "category": "ai-ml",
+      "version": "1.0.0",
+      "description": "Especializado em sistemas multi-agent com CrewAI framework",
+      "tags": [
+        "crewai",
+        "multi-agent",
+        "orchestration",
+        "agents",
+        "tasks",
+        "collaboration"
+      ]
+    },
+    {
+      "id": "claude-agent-sdk-specialist",
+      "name": "Claude Agent SDK Specialist",
+      "category": "ai-ml",
+      "version": "1.0.0",
+      "description": "Especializado em construir agents com Anthropic's Agent SDK e Model Context Protocol",
+      "tags": [
+        "claude",
+        "anthropic",
+        "agent-sdk",
+        "mcp",
+        "tools",
+        "function-calling"
+      ]
+    },
+    {
+      "id": "openai-swarm-specialist",
+      "name": "OpenAI Swarm Specialist",
+      "category": "ai-ml",
+      "version": "1.0.0",
+      "description": "Especializado em sistemas multi-agent com OpenAI Swarm framework",
+      "tags": [
+        "openai",
+        "swarm",
+        "multi-agent",
+        "handoffs",
+        "routines",
+        "coordination"
+      ]
+    },
+    {
+      "id": "rag-specialist",
+      "name": "RAG Specialist",
+      "category": "ai-ml",
+      "version": "1.0.0",
+      "description": "Especializado em Retrieval Augmented Generation systems",
+      "tags": [
+        "rag",
+        "retrieval",
+        "embeddings",
+        "vector-store",
+        "langchain",
+        "llm"
+      ]
+    },
+    {
+      "id": "prompt-engineering-specialist",
+      "name": "Prompt Engineering Specialist",
+      "category": "ai-ml",
+      "version": "1.0.0",
+      "description": "Especializado em otimização, teste e avaliação de prompts para LLMs",
+      "tags": [
+        "prompts",
+        "optimization",
+        "testing",
+        "evaluation",
+        "llm",
+        "few-shot"
+      ]
+    },
+    {
+      "id": "ai-agent-architect",
+      "name": "AI Agent Architect",
+      "category": "ai-ml",
+      "version": "1.0.0",
+      "description": "Especializado em arquitetura de sistemas multi-agent e workflows",
+      "tags": [
+        "architecture",
+        "multi-agent",
+        "workflows",
+        "orchestration",
+        "design-patterns",
+        "ai"
+      ]
     }
   ]
 }
