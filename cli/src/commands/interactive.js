@@ -14,7 +14,7 @@ const {
 const { displayInstallResults, success } = require('../utils/display');
 
 async function interactiveCommand() {
-  console.log(chalk.bold.cyan('\n🤖 Claude Subagents Framework - Interactive Mode\n'));
+  console.log(chalk.bold.cyan('\n🎯 Rambo Code Experts - Interactive Mode\n'));
   console.log(chalk.gray('This wizard will help you select and install agents for your project.\n'));
 
   try {
@@ -239,7 +239,7 @@ async function interactiveCommand() {
       console.log(chalk.bold('Next steps:'));
       console.log(chalk.gray('  1. Open your project in Claude Code'));
       console.log(chalk.gray('  2. Use agents like:'), chalk.cyan(`"Use the agent ${results.success[0].id} to <task>"`));
-      console.log(chalk.gray('  3. Run'), chalk.cyan('csf list'), chalk.gray('to see all available agents'));
+      console.log(chalk.gray('  3. Run'), chalk.cyan('rambo list'), chalk.gray('to see all available agents'));
       console.log();
     }
 

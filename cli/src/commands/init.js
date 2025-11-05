@@ -30,9 +30,9 @@ async function initCommand(options) {
     console.log(`  ${chalk.cyan(paths.readmePath)}`);
     console.log();
     console.log(chalk.bold('Next steps:'));
-    console.log(chalk.gray('  1.'), chalk.cyan('csf list'), chalk.gray('- Browse available agents'));
-    console.log(chalk.gray('  2.'), chalk.cyan('csf install <agent-id>'), chalk.gray('- Install agents'));
-    console.log(chalk.gray('  3.'), chalk.cyan('csf interactive'), chalk.gray('- Use interactive mode'));
+    console.log(chalk.gray('  1.'), chalk.cyan('rambo list'), chalk.gray('- Browse available agents'));
+    console.log(chalk.gray('  2.'), chalk.cyan('rambo install <agent-id>'), chalk.gray('- Install agents'));
+    console.log(chalk.gray('  3.'), chalk.cyan('rambo interactive'), chalk.gray('- Use interactive mode'));
     console.log();
   } catch (err) {
     error(err.message);

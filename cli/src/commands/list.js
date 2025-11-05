@@ -57,8 +57,8 @@ async function listCommand(options) {
       });
 
       console.log();
-      console.log(chalk.gray('Use'), chalk.cyan('csf info <agent-id>'), chalk.gray('for more details'));
-      console.log(chalk.gray('Use'), chalk.cyan('csf install <agent-id>'), chalk.gray('to install an agent'));
+      console.log(chalk.gray('Use'), chalk.cyan('rambo info <agent-id>'), chalk.gray('for more details'));
+      console.log(chalk.gray('Use'), chalk.cyan('rambo install <agent-id>'), chalk.gray('to install an agent'));
     }
   } catch (error) {
     console.error(chalk.red('Error:'), error.message);

@@ -1,6 +1,8 @@
-# Claude Subagents Framework
+# Rambo Code Experts
 
-Um framework centralizado de subagentes especializados para Claude Code, organizado por domínios de atuação.
+🎯 **Elite AI agents for code excellence** - A centralized framework of specialized subagents for Claude Code, organized by domains of expertise.
+
+> **"First Blood" for your codebase** - Deploy elite AI agents that get the job done right, the first time.
 
 ## Visão Geral
 
@@ -19,30 +21,50 @@ Este repositório contém uma coleção curada de subagentes especializados que 
 
 ## Quick Start
 
-### Instalando um Agente Específico
+### 🚀 Using the Rambo CLI (Recommended)
+
+The easiest way to get started is with the Rambo CLI:
 
 ```bash
-# Clonar o repositório
-git clone https://github.com/seu-usuario/claude-subagents-framework.git
+# Install globally
+npm install -g rambo-code-experts
 
-# Instalar um agente específico no seu projeto
-./scripts/install.sh --agent product-manager --dest ~/seu-projeto/.claude/agents/
+# Interactive mode - guided wizard for beginners
+rambo interactive
+
+# Quick commands
+rambo list                    # List all available agents
+rambo search react            # Search for agents
+rambo install product-manager # Install specific agents
+rambo info react-specialist   # Show agent details
 ```
 
-### Instalando uma Categoria Completa
+### Manual Installation
+
+#### Installing a Specific Agent
 
 ```bash
-# Instalar todos os agentes de uma categoria
-./scripts/install.sh --category strategists --dest ~/seu-projeto/.claude/agents/
+# Clone the repository
+git clone https://github.com/allysonbarros/claude-subagents-framework.git
+
+# Install a specific agent in your project
+./scripts/install.sh --agent product-manager --dest ~/your-project/.claude/agents/
 ```
 
-### Listando Agentes Disponíveis
+#### Installing a Complete Category
 
 ```bash
-# Listar todos os agentes
+# Install all agents from a category
+./scripts/install.sh --category strategists --dest ~/your-project/.claude/agents/
+```
+
+#### Listing Available Agents
+
+```bash
+# List all agents
 ./scripts/list-agents.sh
 
-# Listar agentes de uma categoria específica
+# List agents from a specific category
 ./scripts/list-agents.sh --category backend
 ```
 
@@ -65,6 +87,12 @@ Após instalar os agentes desejados no seu projeto, você pode invocá-los no Cl
 ```
 Use o agente product-manager para analisar os requisitos deste projeto
 ```
+
+```
+Use o agente react-specialist para criar um componente de navegação responsivo
+```
+
+Para mais informações sobre o CLI, veja [CLI README](./cli/README.md).
 
 ## Como Contribuir
 

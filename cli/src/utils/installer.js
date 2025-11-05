@@ -112,15 +112,15 @@ async function initializeProject(projectDir) {
 
   // Create README in agents directory
   const readmePath = path.join(agentsDir, 'README.md');
-  const readmeContent = `# Claude Code Agents
+  const readmeContent = `# Rambo Code Experts Agents
 
-This directory contains Claude Code subagents installed from the Claude Subagents Framework.
+This directory contains Claude Code subagents installed from Rambo Code Experts.
 
 ## Installed Agents
 
-Use \`csf list\` to see available agents.
-Use \`csf install <agent-id>\` to install more agents.
-Use \`csf info <agent-id>\` to see agent details.
+Use \`rambo list\` to see available agents.
+Use \`rambo install <agent-id>\` to install more agents.
+Use \`rambo info <agent-id>\` to see agent details.
 
 ## Usage
 

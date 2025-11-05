@@ -1,18 +1,20 @@
-# Claude Subagents Framework CLI
+# Rambo Code Experts CLI
 
-🚀 **User-friendly CLI tool to easily manage and install Claude Code subagents for your projects.**
+🎯 **Elite AI agents for code excellence** - User-friendly CLI tool to easily manage and install Claude Code subagents for your projects.
 
-The Claude Subagents Framework CLI (`csf`) makes it easy for both technical and non-technical users to discover, browse, and install specialized AI agents for Claude Code.
+The Rambo Code Experts CLI (`rambo`) makes it easy for both technical and non-technical users to discover, browse, and install specialized AI agents for Claude Code.
+
+> **"First Blood" for your codebase** - Deploy elite AI agents that get the job done right, the first time.
 
 ## 📦 Installation
 
 ### Global Installation (Recommended)
 
 ```bash
-npm install -g claude-subagents-cli
+npm install -g rambo-code-experts
 ```
 
-After installation, you can use the `csf` command from anywhere.
+After installation, you can use the `rambo` command from anywhere.
 
 ### Local Installation
 
@@ -35,7 +37,7 @@ npm link
 The easiest way to get started is using interactive mode:
 
 ```bash
-csf interactive
+rambointeractive
 ```
 
 This will launch a guided wizard that helps you:
@@ -48,39 +50,39 @@ This will launch a guided wizard that helps you:
 
 ```bash
 # List all available agents
-csf list
+rambolist
 
 # Search for agents
-csf search react
+rambosearch react
 
 # Install specific agents
-csf install product-manager tech-architect
+ramboinstall product-manager tech-architect
 
 # Show agent details
-csf info react-specialist
+ramboinfo react-specialist
 
 # Initialize project structure
-csf init
+ramboinit
 ```
 
 ## 📖 Commands
 
-### `csf list`
+### `rambolist`
 
 List all available agents, optionally filtered by category or tags.
 
 ```bash
 # List all agents
-csf list
+rambolist
 
 # List agents by category
-csf list --category frontend
+rambolist --category frontend
 
 # List agents by tags
-csf list --tags react,hooks
+rambolist --tags react,hooks
 
 # Output as JSON
-csf list --json
+rambolist --json
 ```
 
 **Options:**
@@ -88,43 +90,43 @@ csf list --json
 - `-t, --tags <tags>` - Filter by tags (comma-separated)
 - `--json` - Output as JSON
 
-### `csf search <query>`
+### `rambosearch <query>`
 
 Search for agents by name, description, or tags.
 
 ```bash
 # Search for React-related agents
-csf search react
+rambosearch react
 
 # Search for testing agents
-csf search test
+rambosearch test
 
 # Search for API-related agents
-csf search api
+rambosearch api
 ```
 
 **Options:**
 - `--json` - Output as JSON
 
-### `csf install [agents...]`
+### `ramboinstall [agents...]`
 
 Install one or more agents to your project.
 
 ```bash
 # Install a single agent
-csf install product-manager
+ramboinstall product-manager
 
 # Install multiple agents
-csf install react-specialist state-manager performance-optimizer
+ramboinstall react-specialist state-manager performance-optimizer
 
 # Install all agents from a category
-csf install --all-category frontend
+ramboinstall --all-category frontend
 
 # Install to custom directory
-csf install product-manager --dest ./my-agents
+ramboinstall product-manager --dest ./my-agents
 
 # Force overwrite existing files
-csf install product-manager --force
+ramboinstall product-manager --force
 ```
 
 **Options:**
@@ -132,28 +134,28 @@ csf install product-manager --force
 - `-f, --force` - Overwrite existing files
 - `--all-category <category>` - Install all agents from a category
 
-### `csf info <agent-id>`
+### `ramboinfo <agent-id>`
 
 Show detailed information about an agent.
 
 ```bash
 # Show agent details
-csf info react-specialist
+ramboinfo react-specialist
 
 # Show product manager details
-csf info product-manager
+ramboinfo product-manager
 ```
 
-### `csf init`
+### `ramboinit`
 
 Initialize Claude Code agents structure in your project.
 
 ```bash
 # Initialize in current directory
-csf init
+ramboinit
 
 # Initialize in specific directory
-csf init --dest /path/to/project
+ramboinit --dest /path/to/project
 ```
 
 This creates:
@@ -165,33 +167,33 @@ This creates:
 **Options:**
 - `-d, --dest <path>` - Destination directory (default: current directory)
 
-### `csf update [agents...]`
+### `ramboupdate [agents...]`
 
 Update installed agents to the latest version.
 
 ```bash
 # Update specific agents
-csf update product-manager tech-architect
+ramboupdate product-manager tech-architect
 
 # Update all installed agents
-csf update --all
+ramboupdate --all
 
 # Update in custom directory
-csf update --all --dest ./my-agents
+ramboupdate --all --dest ./my-agents
 ```
 
 **Options:**
 - `-d, --dest <path>` - Agents directory (default: `./.claude/agents`)
 - `--all` - Update all installed agents
 
-### `csf interactive` (or `csf i`)
+### `rambointeractive` (or `ramboi`)
 
 Launch interactive mode with a guided wizard.
 
 ```bash
-csf interactive
+rambointeractive
 # or
-csf i
+ramboi
 ```
 
 Interactive mode features:
@@ -261,43 +263,43 @@ Data analysis and experimentation
 
 ```bash
 # Initialize project
-csf init
+ramboinit
 
 # Install frontend agents
-csf install react-specialist state-manager performance-optimizer
+ramboinstall react-specialist state-manager performance-optimizer
 
 # Install testing
-csf install unit-tester e2e-tester
+ramboinstall unit-tester e2e-tester
 
 # Install DevOps
-csf install docker-specialist ci-cd-engineer
+ramboinstall docker-specialist ci-cd-engineer
 ```
 
 ### Example 2: Full-Stack Project
 
 ```bash
 # Use interactive mode
-csf interactive
+rambointeractive
 
 # Or install specific categories
-csf install --all-category frontend
-csf install --all-category backend
-csf install --all-category testers
+ramboinstall --all-category frontend
+ramboinstall --all-category backend
+ramboinstall --all-category testers
 ```
 
 ### Example 3: Product & Planning
 
 ```bash
 # Install strategists for planning
-csf install product-manager tech-architect api-designer
+ramboinstall product-manager tech-architect api-designer
 
 # View details before installing
-csf info product-manager
+ramboinfo product-manager
 ```
 
 ## 🔧 Project Structure
 
-After running `csf init` and installing agents:
+After running `ramboinit` and installing agents:
 
 ```
 your-project/
@@ -329,30 +331,30 @@ Use the agent security-specialist to review authentication implementation
 
 ## 🎓 Tips for Non-Technical Users
 
-1. **Start with Interactive Mode**: Run `csf interactive` for a guided experience
-2. **Browse Before Installing**: Use `csf list` to see what's available
-3. **Read Agent Details**: Use `csf info <agent-id>` to understand what each agent does
+1. **Start with Interactive Mode**: Run `rambointeractive` for a guided experience
+2. **Browse Before Installing**: Use `rambolist` to see what's available
+3. **Read Agent Details**: Use `ramboinfo <agent-id>` to understand what each agent does
 4. **Install as Needed**: You don't need all agents - install what you need when you need it
-5. **Update Regularly**: Run `csf update --all` to get the latest agent versions
+5. **Update Regularly**: Run `ramboupdate --all` to get the latest agent versions
 
 ## 🤝 Getting Help
 
 ```bash
 # Show help for main command
-csf --help
+rambo--help
 
 # Show help for specific command
-csf install --help
-csf list --help
+ramboinstall --help
+rambolist --help
 ```
 
 ## 🐛 Troubleshooting
 
-### "Command not found: csf"
+### "Command not found: rambo"
 
 If globally installed:
 ```bash
-npm install -g claude-subagents-cli
+npm install -g rambo-code-experts
 ```
 
 If using local installation:
@@ -368,7 +370,7 @@ Make sure you're running the CLI from the correct location or that the framework
 
 On Unix systems, make the binary executable:
 ```bash
-chmod +x ./bin/csf.js
+chmod +x ./bin/rambo.js
 ```
 
 ## 📄 License
