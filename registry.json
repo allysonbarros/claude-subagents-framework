@@ -1,6 +1,6 @@
 {
-  "version": "1.0.0",
-  "lastUpdated": "2025-10-22",
+  "version": "1.1.0",
+  "lastUpdated": "2025-11-05",
   "categories": [
     {
       "id": "strategists",
@@ -93,6 +93,14 @@
       "tags": ["dependencies", "security", "vulnerabilities", "audit", "optimization"]
     },
     {
+      "id": "mcp-integrator",
+      "name": "MCP Integrator",
+      "category": "researchers",
+      "version": "1.0.0",
+      "description": "Especializado em integração de serviços via Model Context Protocol (MCP)",
+      "tags": ["mcp", "model-context-protocol", "integrations", "tools", "claude"]
+    },
+    {
       "id": "ui-designer",
       "name": "UI Designer",
       "category": "designers",
@@ -165,6 +173,14 @@
       "tags": ["security", "authentication", "authorization", "jwt", "owasp", "encryption"]
     },
     {
+      "id": "supabase-specialist",
+      "name": "Supabase Specialist",
+      "category": "backend",
+      "version": "1.0.0",
+      "description": "Especializado em desenvolvimento com Supabase (PostgreSQL, Auth, Storage, Edge Functions)",
+      "tags": ["supabase", "baas", "postgresql", "authentication", "realtime", "edge-functions"]
+    },
+    {
       "id": "unit-tester",
       "name": "Unit Tester",
       "category": "testers",
@@ -211,6 +227,22 @@
       "version": "1.0.0",
       "description": "Especializado em infraestrutura como código e Kubernetes",
       "tags": ["infrastructure", "terraform", "kubernetes", "aws", "iac", "cloud"]
+    },
+    {
+      "id": "docker-manifest-builder",
+      "name": "Docker Manifest Builder",
+      "category": "devops",
+      "version": "1.0.0",
+      "description": "Especializado em criar Dockerfiles otimizados e arquivos docker-compose.yml",
+      "tags": ["docker", "dockerfile", "docker-compose", "containerization", "multi-stage-build"]
+    },
+    {
+      "id": "k8s-manifest-builder",
+      "name": "Kubernetes Manifest Builder",
+      "category": "devops",
+      "version": "1.0.0",
+      "description": "Especializado em criar manifests Kubernetes (Deployments, Services, Ingress, Helm charts)",
+      "tags": ["kubernetes", "k8s", "manifests", "helm", "deployments", "yaml"]
     },
     {
       "id": "event-tracker",
