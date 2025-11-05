@@ -11,20 +11,35 @@ const initCommand = require('./commands/init');
 const interactiveCommand = require('./commands/interactive');
 const updateCommand = require('./commands/update');
 
+// Rambo ASCII Art
+const RAMBO_ART = `
+${chalk.yellow('████████████████████████████████████████████████████████████████')}
+${chalk.yellow('█')}${chalk.red('▓▓▓▓▓▓')}${chalk.yellow('█')}${chalk.gray('░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░')}${chalk.yellow('█')}${chalk.red('▓▓▓▓▓▓')}${chalk.yellow('█')}
+${chalk.yellow('█')}${chalk.red('▓')}${chalk.gray('░░░░')}${chalk.red('▓')}${chalk.yellow('█')}${chalk.gray('░')}${chalk.red('▄▄▄▄▄')}${chalk.gray('░░░')}${chalk.bgRed.white.bold(' RAMBO CODE EXPERTS AGENTS ')}${chalk.gray('░░░')}${chalk.red('▄▄▄▄▄')}${chalk.gray('░')}${chalk.yellow('█')}${chalk.red('▓')}${chalk.gray('░░░░')}${chalk.red('▓')}${chalk.yellow('█')}
+${chalk.yellow('█')}${chalk.red('▓')}${chalk.gray('░')}${chalk.red('▓▓')}${chalk.gray('░')}${chalk.red('▓')}${chalk.yellow('█')}${chalk.gray('░')}${chalk.red('█')}${chalk.gray('░░░░')}${chalk.red('█')}${chalk.gray('░░░░░░░░░░░░░░░░░░░░░░░░')}${chalk.red('█')}${chalk.gray('░░░░')}${chalk.red('█')}${chalk.gray('░')}${chalk.yellow('█')}${chalk.red('▓')}${chalk.gray('░')}${chalk.red('▓▓')}${chalk.gray('░')}${chalk.red('▓')}${chalk.yellow('█')}
+${chalk.yellow('█')}${chalk.red('▓')}${chalk.gray('░')}${chalk.red('▓▓')}${chalk.gray('░')}${chalk.red('▓')}${chalk.yellow('█')}${chalk.gray('░')}${chalk.red('█')}${chalk.gray('░')}${chalk.red('▄▄')}${chalk.gray('░')}${chalk.red('█')}${chalk.gray('░░')}${chalk.cyan('╔══════════════════════════╗')}${chalk.gray('░░')}${chalk.red('█')}${chalk.gray('░')}${chalk.red('▄▄')}${chalk.gray('░')}${chalk.red('█')}${chalk.gray('░')}${chalk.yellow('█')}${chalk.red('▓')}${chalk.gray('░')}${chalk.red('▓▓')}${chalk.gray('░')}${chalk.red('▓')}${chalk.yellow('█')}
+${chalk.yellow('█')}${chalk.red('▓')}${chalk.gray('░')}${chalk.red('▓▓')}${chalk.gray('░')}${chalk.red('▓')}${chalk.yellow('█')}${chalk.gray('░')}${chalk.red('█')}${chalk.gray('░')}${chalk.red('████')}${chalk.gray('░')}${chalk.red('█')}${chalk.gray('░')}${chalk.cyan('║')}${chalk.white.bold(' Elite AI Agent Squadron  ')}${chalk.cyan('║')}${chalk.gray('░')}${chalk.red('█')}${chalk.gray('░')}${chalk.red('████')}${chalk.gray('░')}${chalk.red('█')}${chalk.gray('░')}${chalk.yellow('█')}${chalk.red('▓')}${chalk.gray('░')}${chalk.red('▓▓')}${chalk.gray('░')}${chalk.red('▓')}${chalk.yellow('█')}
+${chalk.yellow('█')}${chalk.red('▓')}${chalk.gray('░░░░')}${chalk.red('▓')}${chalk.yellow('█')}${chalk.gray('░')}${chalk.red('█')}${chalk.gray('░░░░░')}${chalk.red('█')}${chalk.gray('░')}${chalk.cyan('║')}${chalk.white(' 24 Specialized Agents    ')}${chalk.cyan('║')}${chalk.gray('░')}${chalk.red('█')}${chalk.gray('░░░░░')}${chalk.red('█')}${chalk.gray('░')}${chalk.yellow('█')}${chalk.red('▓')}${chalk.gray('░░░░')}${chalk.red('▓')}${chalk.yellow('█')}
+${chalk.yellow('█')}${chalk.red('▓▓▓▓▓▓')}${chalk.yellow('█')}${chalk.gray('░')}${chalk.red('█████████')}${chalk.gray('░')}${chalk.cyan('║')}${chalk.white(' Mission: Code Excellence ')}${chalk.cyan('║')}${chalk.gray('░')}${chalk.red('█████████')}${chalk.gray('░')}${chalk.yellow('█')}${chalk.red('▓▓▓▓▓▓')}${chalk.yellow('█')}
+${chalk.yellow('████████████')}${chalk.gray('░░░░░░░░░░░')}${chalk.cyan('╚══════════════════════════╝')}${chalk.gray('░░░░░░░░░░░')}${chalk.yellow('████████████')}
+${chalk.gray('            ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀')}
+`;
+
 async function run() {
   program
-    .name('csf')
-    .description('Claude Subagents Framework CLI - Manage and install Claude Code subagents')
+    .name('rambo')
+    .description('Rambo Code Experts Agents - Elite AI agents for code excellence')
     .version(packageJson.version)
+    .addHelpText('before', RAMBO_ART)
     .addHelpText('after', `
 ${chalk.bold('Examples:')}
-  ${chalk.cyan('csf list')}                    List all available agents
-  ${chalk.cyan('csf list --category frontend')} List agents in a specific category
-  ${chalk.cyan('csf search react')}            Search for agents
-  ${chalk.cyan('csf info react-specialist')}   Show agent details
-  ${chalk.cyan('csf install product-manager')} Install an agent
-  ${chalk.cyan('csf init')}                    Initialize project with agents
-  ${chalk.cyan('csf interactive')}             Interactive mode (recommended for beginners)
+  ${chalk.cyan('rambo list')}                    List all available agents
+  ${chalk.cyan('rambo list --category frontend')} List agents in a specific category
+  ${chalk.cyan('rambo search react')}            Search for agents
+  ${chalk.cyan('rambo info react-specialist')}   Show agent details
+  ${chalk.cyan('rambo install product-manager')} Install an agent
+  ${chalk.cyan('rambo init')}                    Initialize project with agents
+  ${chalk.cyan('rambo interactive')}             Interactive mode (recommended for beginners)
 
 ${chalk.bold('Categories:')}
   ${chalk.green('strategists')}   - Planning and architecture
