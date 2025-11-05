@@ -43,5 +43,198 @@
       "description": "Agentes especializados em análise de dados e experimentos"
     }
   ],
-  "agents": []
+  "agents": [
+    {
+      "id": "product-manager",
+      "name": "Product Manager",
+      "category": "strategists",
+      "version": "1.0.0",
+      "description": "Especializado em análise de produto, definição de requisitos e priorização de features",
+      "tags": ["product", "requirements", "roadmap", "prd"]
+    },
+    {
+      "id": "tech-architect",
+      "name": "Tech Architect",
+      "category": "strategists",
+      "version": "1.0.0",
+      "description": "Especializado em arquitetura de sistemas e decisões técnicas de alto nível",
+      "tags": ["architecture", "design-patterns", "technical-decisions", "scalability"]
+    },
+    {
+      "id": "api-designer",
+      "name": "API Designer",
+      "category": "strategists",
+      "version": "1.0.0",
+      "description": "Especializado em design de APIs RESTful e GraphQL",
+      "tags": ["api", "rest", "graphql", "openapi", "swagger"]
+    },
+    {
+      "id": "code-explorer",
+      "name": "Code Explorer",
+      "category": "researchers",
+      "version": "1.0.0",
+      "description": "Especializado em exploração e análise de codebases complexas",
+      "tags": ["code-analysis", "exploration", "documentation", "onboarding"]
+    },
+    {
+      "id": "tech-scout",
+      "name": "Tech Scout",
+      "category": "researchers",
+      "version": "1.0.0",
+      "description": "Especializado em pesquisa e avaliação de tecnologias e bibliotecas",
+      "tags": ["research", "libraries", "frameworks", "comparison", "evaluation"]
+    },
+    {
+      "id": "dependency-analyzer",
+      "name": "Dependency Analyzer",
+      "category": "researchers",
+      "version": "1.0.0",
+      "description": "Especializado em análise de dependências e supply chain security",
+      "tags": ["dependencies", "security", "vulnerabilities", "audit", "optimization"]
+    },
+    {
+      "id": "ui-designer",
+      "name": "UI Designer",
+      "category": "designers",
+      "version": "1.0.0",
+      "description": "Especializado em design de interfaces de usuário e componentes visuais",
+      "tags": ["ui", "interface", "components", "responsive", "accessibility"]
+    },
+    {
+      "id": "ux-specialist",
+      "name": "UX Specialist",
+      "category": "designers",
+      "version": "1.0.0",
+      "description": "Especializado em experiência do usuário e usabilidade",
+      "tags": ["ux", "usability", "user-journey", "interaction-design", "flows"]
+    },
+    {
+      "id": "design-system-builder",
+      "name": "Design System Builder",
+      "category": "designers",
+      "version": "1.0.0",
+      "description": "Especializado em criar e manter design systems escaláveis",
+      "tags": ["design-system", "tokens", "components", "guidelines", "consistency"]
+    },
+    {
+      "id": "react-specialist",
+      "name": "React Specialist",
+      "category": "frontend",
+      "version": "1.0.0",
+      "description": "Especializado em desenvolvimento React moderno com hooks e boas práticas",
+      "tags": ["react", "hooks", "components", "typescript", "patterns"]
+    },
+    {
+      "id": "state-manager",
+      "name": "State Manager",
+      "category": "frontend",
+      "version": "1.0.0",
+      "description": "Especializado em gerenciamento de estado com Redux, Zustand, Context API",
+      "tags": ["state-management", "redux", "zustand", "context-api", "jotai"]
+    },
+    {
+      "id": "performance-optimizer",
+      "name": "Performance Optimizer",
+      "category": "frontend",
+      "version": "1.0.0",
+      "description": "Especializado em otimização de performance e Core Web Vitals",
+      "tags": ["performance", "optimization", "web-vitals", "bundle-size", "lazy-loading"]
+    },
+    {
+      "id": "api-developer",
+      "name": "API Developer",
+      "category": "backend",
+      "version": "1.0.0",
+      "description": "Especializado em desenvolvimento de APIs RESTful e GraphQL",
+      "tags": ["api", "rest", "graphql", "express", "nodejs", "middleware"]
+    },
+    {
+      "id": "database-specialist",
+      "name": "Database Specialist",
+      "category": "backend",
+      "version": "1.0.0",
+      "description": "Especializado em design de banco de dados e otimização de queries",
+      "tags": ["database", "sql", "postgresql", "mongodb", "orm", "migrations"]
+    },
+    {
+      "id": "security-specialist",
+      "name": "Security Specialist",
+      "category": "backend",
+      "version": "1.0.0",
+      "description": "Especializado em segurança de aplicações e OWASP",
+      "tags": ["security", "authentication", "authorization", "jwt", "owasp", "encryption"]
+    },
+    {
+      "id": "unit-tester",
+      "name": "Unit Tester",
+      "category": "testers",
+      "version": "1.0.0",
+      "description": "Especializado em testes unitários e TDD",
+      "tags": ["unit-testing", "jest", "tdd", "mocking", "coverage"]
+    },
+    {
+      "id": "e2e-tester",
+      "name": "E2E Tester",
+      "category": "testers",
+      "version": "1.0.0",
+      "description": "Especializado em testes end-to-end com Cypress e Playwright",
+      "tags": ["e2e", "cypress", "playwright", "integration-testing", "visual-regression"]
+    },
+    {
+      "id": "test-strategist",
+      "name": "Test Strategist",
+      "category": "testers",
+      "version": "1.0.0",
+      "description": "Especializado em estratégia de testes e qualidade",
+      "tags": ["test-strategy", "test-pyramid", "coverage-analysis", "ci-cd", "quality-gates"]
+    },
+    {
+      "id": "ci-cd-engineer",
+      "name": "CI/CD Engineer",
+      "category": "devops",
+      "version": "1.0.0",
+      "description": "Especializado em pipelines de CI/CD e automação",
+      "tags": ["ci-cd", "github-actions", "gitlab-ci", "jenkins", "deployment", "automation"]
+    },
+    {
+      "id": "docker-specialist",
+      "name": "Docker Specialist",
+      "category": "devops",
+      "version": "1.0.0",
+      "description": "Especializado em Docker e containerização",
+      "tags": ["docker", "containers", "docker-compose", "optimization", "multi-stage"]
+    },
+    {
+      "id": "infrastructure-engineer",
+      "name": "Infrastructure Engineer",
+      "category": "devops",
+      "version": "1.0.0",
+      "description": "Especializado em infraestrutura como código e Kubernetes",
+      "tags": ["infrastructure", "terraform", "kubernetes", "aws", "iac", "cloud"]
+    },
+    {
+      "id": "event-tracker",
+      "name": "Event Tracker",
+      "category": "analytics",
+      "version": "1.0.0",
+      "description": "Especializado em implementação de tracking de eventos",
+      "tags": ["analytics", "tracking", "google-analytics", "mixpanel", "amplitude", "events"]
+    },
+    {
+      "id": "ab-tester",
+      "name": "A/B Tester",
+      "category": "analytics",
+      "version": "1.0.0",
+      "description": "Especializado em testes A/B e feature flags",
+      "tags": ["ab-testing", "experimentation", "feature-flags", "statistical-analysis", "optimization"]
+    },
+    {
+      "id": "metrics-analyst",
+      "name": "Metrics Analyst",
+      "category": "analytics",
+      "version": "1.0.0",
+      "description": "Especializado em análise de métricas e KPIs",
+      "tags": ["metrics", "kpis", "dashboards", "data-analysis", "funnels", "cohorts"]
+    }
+  ]
 }

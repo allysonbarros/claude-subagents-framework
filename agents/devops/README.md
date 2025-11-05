@@ -13,7 +13,14 @@ Os agentes DevOps ajudam a:
 
 ## Agentes Disponíveis
 
-*Adicione seus agentes aqui conforme forem criados*
+### [CI/CD Engineer](./ci-cd-engineer.md)
+Especializado em pipelines de CI/CD e automação. Use para configurar GitHub Actions, GitLab CI, Jenkins e estratégias de deployment.
+
+### [Docker Specialist](./docker-specialist.md)
+Especializado em Docker e containerização. Use para criar Dockerfiles otimizados, configurar Docker Compose e implementar multi-stage builds.
+
+### [Infrastructure Engineer](./infrastructure-engineer.md)
+Especializado em infraestrutura como código e Kubernetes. Use para provisionar recursos com Terraform, configurar clusters K8s e gerenciar cloud infrastructure.
 
 ## Casos de Uso Comuns
 

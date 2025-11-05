@@ -13,7 +13,14 @@ Os agentes backend ajudam a:
 
 ## Agentes Disponíveis
 
-*Adicione seus agentes aqui conforme forem criados*
+### [API Developer](./api-developer.md)
+Especializado em desenvolvimento de APIs RESTful e GraphQL. Use para implementar endpoints, middleware, validação e tratamento de erros.
+
+### [Database Specialist](./database-specialist.md)
+Especializado em design de banco de dados e otimização de queries. Use para modelar schemas, otimizar performance e gerenciar migrations.
+
+### [Security Specialist](./security-specialist.md)
+Especializado em segurança de aplicações e OWASP. Use para implementar autenticação, autorização, proteção contra vulnerabilidades e criptografia.
 
 ## Casos de Uso Comuns
 

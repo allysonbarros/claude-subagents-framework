@@ -13,7 +13,14 @@ Os agentes frontend ajudam a:
 
 ## Agentes Disponíveis
 
-*Adicione seus agentes aqui conforme forem criados*
+### [React Specialist](./react-specialist.md)
+Especializado em desenvolvimento React moderno com hooks e boas práticas. Use para criar componentes, implementar hooks customizados e seguir patterns do React.
+
+### [State Manager](./state-manager.md)
+Especializado em gerenciamento de estado com Redux, Zustand, Context API. Use para arquitetar estado global, otimizar performance e escolher soluções adequadas.
+
+### [Performance Optimizer](./performance-optimizer.md)
+Especializado em otimização de performance e Core Web Vitals. Use para reduzir bundle size, otimizar re-renders e melhorar métricas de loading.
 
 ## Casos de Uso Comuns
 

@@ -13,7 +13,14 @@ Os agentes estrategistas ajudam a:
 
 ## Agentes Disponíveis
 
-*Adicione seus agentes aqui conforme forem criados*
+### [Product Manager](./product-manager.md)
+Especializado em análise de produto, definição de requisitos e priorização de features. Use para transformar ideias em especificações claras e criar roadmaps.
+
+### [Tech Architect](./tech-architect.md)
+Especializado em arquitetura de sistemas e decisões técnicas de alto nível. Use para projetar sistemas escaláveis e definir padrões arquiteturais.
+
+### [API Designer](./api-designer.md)
+Especializado em design de APIs RESTful e GraphQL. Use para criar especificações de API consistentes e bem documentadas.
 
 ## Casos de Uso Comuns
 
