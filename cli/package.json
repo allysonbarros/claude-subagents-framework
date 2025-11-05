@@ -1,0 +1,43 @@
+{
+  "name": "claude-subagents-cli",
+  "version": "1.0.0",
+  "description": "CLI tool to easily manage and install Claude Code subagents",
+  "main": "src/index.js",
+  "bin": {
+    "csf": "./bin/csf.js",
+    "claude-subagents": "./bin/csf.js"
+  },
+  "scripts": {
+    "start": "node bin/csf.js",
+    "test": "node bin/csf.js --help"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "subagents",
+    "ai",
+    "cli",
+    "agents"
+  ],
+  "author": "Claude Subagents Framework",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^11.0.0",
+    "inquirer": "^8.2.5",
+    "ora": "^5.4.1",
+    "fs-extra": "^11.1.1",
+    "table": "^6.8.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/allysonbarros/claude-subagents-framework.git"
+  },
+  "bugs": {
+    "url": "https://github.com/allysonbarros/claude-subagents-framework/issues"
+  },
+  "homepage": "https://github.com/allysonbarros/claude-subagents-framework#readme"
+}
