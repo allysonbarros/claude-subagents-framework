@@ -1,5 +1,5 @@
 {
-  "version": "1.1.0",
+  "version": "2.0.0",
   "lastUpdated": "2025-11-05",
   "categories": [
     {
@@ -41,6 +41,16 @@
       "id": "analytics",
       "name": "Analytics",
       "description": "Agentes especializados em análise de dados e experimentos"
+    },
+    {
+      "id": "ai-ml",
+      "name": "AI/ML",
+      "description": "Agentes especializados em inteligência artificial e machine learning"
+    },
+    {
+      "id": "data-engineering",
+      "name": "Data Engineering",
+      "description": "Agentes especializados em engenharia de dados e plataformas analytics"
     }
   ],
   "agents": [
@@ -267,6 +277,86 @@
       "version": "1.0.0",
       "description": "Especializado em análise de métricas e KPIs",
       "tags": ["metrics", "kpis", "dashboards", "data-analysis", "funnels", "cohorts"]
+    },
+    {
+      "id": "django-specialist",
+      "name": "Django Specialist",
+      "category": "backend",
+      "version": "1.0.0",
+      "description": "Especializado em desenvolvimento web com Django framework",
+      "tags": ["django", "python", "web", "orm", "rest-framework", "admin"]
+    },
+    {
+      "id": "fastapi-specialist",
+      "name": "FastAPI Specialist",
+      "category": "backend",
+      "version": "1.0.0",
+      "description": "Especializado em APIs modernas e assíncronas com FastAPI",
+      "tags": ["fastapi", "python", "async", "api", "pydantic", "high-performance"]
+    },
+    {
+      "id": "flask-specialist",
+      "name": "Flask Specialist",
+      "category": "backend",
+      "version": "1.0.0",
+      "description": "Especializado em aplicações web lightweight com Flask",
+      "tags": ["flask", "python", "web", "micro-framework", "blueprints"]
+    },
+    {
+      "id": "langchain-specialist",
+      "name": "LangChain/LangGraph Specialist",
+      "category": "ai-ml",
+      "version": "1.0.0",
+      "description": "Especializado em aplicações com LLMs usando LangChain e LangGraph",
+      "tags": ["langchain", "langgraph", "llm", "agents", "rag", "ai"]
+    },
+    {
+      "id": "gradio-specialist",
+      "name": "Gradio Specialist",
+      "category": "ai-ml",
+      "version": "1.0.0",
+      "description": "Especializado em interfaces ML com Gradio",
+      "tags": ["gradio", "ml", "ui", "demo", "python"]
+    },
+    {
+      "id": "streamlit-specialist",
+      "name": "Streamlit Specialist",
+      "category": "ai-ml",
+      "version": "1.0.0",
+      "description": "Especializado em data apps e dashboards com Streamlit",
+      "tags": ["streamlit", "dashboard", "data-viz", "python", "ml-apps"]
+    },
+    {
+      "id": "dbt-specialist",
+      "name": "DBT Specialist",
+      "category": "data-engineering",
+      "version": "1.0.0",
+      "description": "Especializado em transformação de dados com dbt (data build tool)",
+      "tags": ["dbt", "sql", "data-transformation", "testing", "documentation"]
+    },
+    {
+      "id": "snowflake-specialist",
+      "name": "Snowflake Specialist",
+      "category": "data-engineering",
+      "version": "1.0.0",
+      "description": "Especializado em Snowflake data warehouse e cloud analytics",
+      "tags": ["snowflake", "data-warehouse", "sql", "snowpipe", "streams"]
+    },
+    {
+      "id": "databricks-specialist",
+      "name": "Databricks Specialist",
+      "category": "data-engineering",
+      "version": "1.0.0",
+      "description": "Especializado em Databricks lakehouse com Delta Lake e Spark",
+      "tags": ["databricks", "delta-lake", "spark", "ml", "unity-catalog"]
+    },
+    {
+      "id": "spark-specialist",
+      "name": "Spark Specialist",
+      "category": "data-engineering",
+      "version": "1.0.0",
+      "description": "Especializado em processamento big data com Apache Spark",
+      "tags": ["spark", "pyspark", "big-data", "distributed", "ml"]
     }
   ]
 }
