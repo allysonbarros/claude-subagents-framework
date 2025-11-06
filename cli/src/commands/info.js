@@ -8,8 +8,8 @@ async function infoCommand(agentId) {
 
     if (!agent) {
       error(`Agent not found: ${agentId}`);
-      console.log(chalk.gray('\nUse'), chalk.cyan('csf list'), chalk.gray('to see available agents'));
-      console.log(chalk.gray('Use'), chalk.cyan('csf search <query>'), chalk.gray('to search for agents'));
+      console.log(chalk.gray('\nUse'), chalk.cyan('rambo list'), chalk.gray('to see available agents'));
+      console.log(chalk.gray('Use'), chalk.cyan('rambo search <query>'), chalk.gray('to search for agents'));
       process.exit(1);
     }
 

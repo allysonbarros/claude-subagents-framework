@@ -29,7 +29,7 @@ async function installCommand(agents, options) {
 
       if (!category) {
         error(`Category not found: ${allCategory}`);
-        console.log(chalk.gray('\nUse'), chalk.cyan('csf list'), chalk.gray('to see available categories'));
+        console.log(chalk.gray('\nUse'), chalk.cyan('rambo list'), chalk.gray('to see available categories'));
         process.exit(1);
       }
 
@@ -45,11 +45,11 @@ async function installCommand(agents, options) {
       // No agents specified
       error('Please specify at least one agent to install');
       console.log(chalk.gray('\nExamples:'));
-      console.log(chalk.cyan('  csf install product-manager'));
-      console.log(chalk.cyan('  csf install react-specialist state-manager'));
-      console.log(chalk.cyan('  csf install --all-category frontend'));
+      console.log(chalk.cyan('  rambo install product-manager'));
+      console.log(chalk.cyan('  rambo install react-specialist state-manager'));
+      console.log(chalk.cyan('  rambo install --all-category frontend'));
       console.log();
-      console.log(chalk.gray('Use'), chalk.cyan('csf list'), chalk.gray('to see available agents'));
+      console.log(chalk.gray('Use'), chalk.cyan('rambo list'), chalk.gray('to see available agents'));
       process.exit(1);
     } else {
       // Install specific agents
@@ -58,7 +58,7 @@ async function installCommand(agents, options) {
 
         if (!agent) {
           error(`Agent not found: ${agentId}`);
-          console.log(chalk.gray('Use'), chalk.cyan('csf list'), chalk.gray('to see available agents'));
+          console.log(chalk.gray('Use'), chalk.cyan('rambo list'), chalk.gray('to see available agents'));
           process.exit(1);
         }
 

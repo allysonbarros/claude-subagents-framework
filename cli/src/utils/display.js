@@ -100,7 +100,7 @@ function displayAgentInfo(agent, content) {
   }
 
   console.log(chalk.bold('\nInstall:'));
-  console.log(chalk.cyan(`  csf install ${agent.id}`));
+  console.log(chalk.cyan(`  rambo install ${agent.id}`));
 
   console.log();
 }

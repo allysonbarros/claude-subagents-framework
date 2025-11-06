@@ -31,7 +31,7 @@ async function updateCommand(agents, options) {
       if (installedIds.length === 0) {
         spinner.fail('No agents installed');
         info(`Looking in: ${destDir}`);
-        console.log(chalk.gray('\nUse'), chalk.cyan('csf install <agent-id>'), chalk.gray('to install agents'));
+        console.log(chalk.gray('\nUse'), chalk.cyan('rambo install <agent-id>'), chalk.gray('to install agents'));
         process.exit(0);
       }
 
@@ -47,9 +47,9 @@ async function updateCommand(agents, options) {
     } else if (!agents || agents.length === 0) {
       error('Please specify agents to update or use --all');
       console.log(chalk.gray('\nExamples:'));
-      console.log(chalk.cyan('  csf update product-manager'));
-      console.log(chalk.cyan('  csf update react-specialist state-manager'));
-      console.log(chalk.cyan('  csf update --all'));
+      console.log(chalk.cyan('  rambo update product-manager'));
+      console.log(chalk.cyan('  rambo update react-specialist state-manager'));
+      console.log(chalk.cyan('  rambo update --all'));
       process.exit(1);
     } else {
       // Update specific agents
@@ -58,7 +58,7 @@ async function updateCommand(agents, options) {
 
         if (!agent) {
           error(`Agent not found: ${agentId}`);
-          console.log(chalk.gray('Use'), chalk.cyan('csf list'), chalk.gray('to see available agents'));
+          console.log(chalk.gray('Use'), chalk.cyan('rambo list'), chalk.gray('to see available agents'));
           process.exit(1);
         }
 

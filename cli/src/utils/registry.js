@@ -2,11 +2,11 @@ const fs = require('fs-extra');
 const path = require('path');
 
 function getRegistryPath() {
-  if (!process.env.CSF_ROOT) {
+  if (!process.env.RAMBO_ROOT) {
     // Fallback: calculate from current file location
     return path.join(__dirname, '../../..', 'registry.json');
   }
-  return path.join(process.env.CSF_ROOT, 'registry.json');
+  return path.join(process.env.RAMBO_ROOT, 'registry.json');
 }
 
 const REGISTRY_PATH = getRegistryPath();
@@ -119,7 +119,7 @@ function filterAgentsByTags(tags) {
  */
 function getAgentFilePath(agent) {
   return path.join(
-    process.env.CSF_ROOT,
+    process.env.RAMBO_ROOT,
     'agents',
     agent.category,
     `${agent.id}.md`

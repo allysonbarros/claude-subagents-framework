@@ -11,8 +11,8 @@ async function searchCommand(query, options) {
     if (results.length === 0) {
       console.log(chalk.yellow(`No agents found matching: "${query}"`));
       console.log(chalk.gray('\nTry:'));
-      console.log(chalk.cyan('  csf list'), chalk.gray('- to see all available agents'));
-      console.log(chalk.cyan('  csf search <different-query>'), chalk.gray('- to search with different terms'));
+      console.log(chalk.cyan('  rambo list'), chalk.gray('- to see all available agents'));
+      console.log(chalk.cyan('  rambo search <different-query>'), chalk.gray('- to search with different terms'));
       return;
     }
 
@@ -23,8 +23,8 @@ async function searchCommand(query, options) {
       displayAgentsTable(results);
 
       console.log();
-      console.log(chalk.gray('Use'), chalk.cyan('csf info <agent-id>'), chalk.gray('for more details'));
-      console.log(chalk.gray('Use'), chalk.cyan('csf install <agent-id>'), chalk.gray('to install an agent'));
+      console.log(chalk.gray('Use'), chalk.cyan('rambo info <agent-id>'), chalk.gray('for more details'));
+      console.log(chalk.gray('Use'), chalk.cyan('rambo install <agent-id>'), chalk.gray('to install an agent'));
     }
   } catch (error) {
     console.error(chalk.red('Error:'), error.message);

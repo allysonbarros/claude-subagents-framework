@@ -4,13 +4,13 @@
   "description": "Rambo Code Experts Agents - Elite AI agents for code excellence",
   "main": "src/index.js",
   "bin": {
-    "rambo": "./bin/csf.js",
-    "rambo-agents": "./bin/csf.js",
+    "rambo": "./bin/rambo.js",
+    "rambo-agents": "./bin/rambo.js",
     "csf": "./bin/csf.js"
   },
   "scripts": {
-    "start": "node bin/csf.js",
-    "test": "node bin/csf.js --help"
+    "start": "node bin/rambo.js",
+    "test": "node bin/rambo.js --help"
   },
   "keywords": [
     "claude",
