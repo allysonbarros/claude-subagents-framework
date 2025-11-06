@@ -11,18 +11,27 @@ const initCommand = require('./commands/init');
 const interactiveCommand = require('./commands/interactive');
 const updateCommand = require('./commands/update');
 
-// Rambo ASCII Art
+// Rambo ASCII Art (updated to match pixel-style logo)
 const RAMBO_ART = `
-${chalk.yellow('████████████████████████████████████████████████████████████████')}
-${chalk.yellow('█')}${chalk.red('▓▓▓▓▓▓')}${chalk.yellow('█')}${chalk.gray('░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░')}${chalk.yellow('█')}${chalk.red('▓▓▓▓▓▓')}${chalk.yellow('█')}
-${chalk.yellow('█')}${chalk.red('▓')}${chalk.gray('░░░░')}${chalk.red('▓')}${chalk.yellow('█')}${chalk.gray('░')}${chalk.red('▄▄▄▄▄')}${chalk.gray('░░░')}${chalk.bgRed.white.bold(' RAMBO CODE EXPERTS AGENTS ')}${chalk.gray('░░░')}${chalk.red('▄▄▄▄▄')}${chalk.gray('░')}${chalk.yellow('█')}${chalk.red('▓')}${chalk.gray('░░░░')}${chalk.red('▓')}${chalk.yellow('█')}
-${chalk.yellow('█')}${chalk.red('▓')}${chalk.gray('░')}${chalk.red('▓▓')}${chalk.gray('░')}${chalk.red('▓')}${chalk.yellow('█')}${chalk.gray('░')}${chalk.red('█')}${chalk.gray('░░░░')}${chalk.red('█')}${chalk.gray('░░░░░░░░░░░░░░░░░░░░░░░░')}${chalk.red('█')}${chalk.gray('░░░░')}${chalk.red('█')}${chalk.gray('░')}${chalk.yellow('█')}${chalk.red('▓')}${chalk.gray('░')}${chalk.red('▓▓')}${chalk.gray('░')}${chalk.red('▓')}${chalk.yellow('█')}
-${chalk.yellow('█')}${chalk.red('▓')}${chalk.gray('░')}${chalk.red('▓▓')}${chalk.gray('░')}${chalk.red('▓')}${chalk.yellow('█')}${chalk.gray('░')}${chalk.red('█')}${chalk.gray('░')}${chalk.red('▄▄')}${chalk.gray('░')}${chalk.red('█')}${chalk.gray('░░')}${chalk.cyan('╔══════════════════════════╗')}${chalk.gray('░░')}${chalk.red('█')}${chalk.gray('░')}${chalk.red('▄▄')}${chalk.gray('░')}${chalk.red('█')}${chalk.gray('░')}${chalk.yellow('█')}${chalk.red('▓')}${chalk.gray('░')}${chalk.red('▓▓')}${chalk.gray('░')}${chalk.red('▓')}${chalk.yellow('█')}
-${chalk.yellow('█')}${chalk.red('▓')}${chalk.gray('░')}${chalk.red('▓▓')}${chalk.gray('░')}${chalk.red('▓')}${chalk.yellow('█')}${chalk.gray('░')}${chalk.red('█')}${chalk.gray('░')}${chalk.red('████')}${chalk.gray('░')}${chalk.red('█')}${chalk.gray('░')}${chalk.cyan('║')}${chalk.white.bold(' Elite AI Agent Squadron  ')}${chalk.cyan('║')}${chalk.gray('░')}${chalk.red('█')}${chalk.gray('░')}${chalk.red('████')}${chalk.gray('░')}${chalk.red('█')}${chalk.gray('░')}${chalk.yellow('█')}${chalk.red('▓')}${chalk.gray('░')}${chalk.red('▓▓')}${chalk.gray('░')}${chalk.red('▓')}${chalk.yellow('█')}
-${chalk.yellow('█')}${chalk.red('▓')}${chalk.gray('░░░░')}${chalk.red('▓')}${chalk.yellow('█')}${chalk.gray('░')}${chalk.red('█')}${chalk.gray('░░░░░')}${chalk.red('█')}${chalk.gray('░')}${chalk.cyan('║')}${chalk.white(' 24 Specialized Agents    ')}${chalk.cyan('║')}${chalk.gray('░')}${chalk.red('█')}${chalk.gray('░░░░░')}${chalk.red('█')}${chalk.gray('░')}${chalk.yellow('█')}${chalk.red('▓')}${chalk.gray('░░░░')}${chalk.red('▓')}${chalk.yellow('█')}
-${chalk.yellow('█')}${chalk.red('▓▓▓▓▓▓')}${chalk.yellow('█')}${chalk.gray('░')}${chalk.red('█████████')}${chalk.gray('░')}${chalk.cyan('║')}${chalk.white(' Mission: Code Excellence ')}${chalk.cyan('║')}${chalk.gray('░')}${chalk.red('█████████')}${chalk.gray('░')}${chalk.yellow('█')}${chalk.red('▓▓▓▓▓▓')}${chalk.yellow('█')}
-${chalk.yellow('████████████')}${chalk.gray('░░░░░░░░░░░')}${chalk.cyan('╚══════════════════════════╝')}${chalk.gray('░░░░░░░░░░░')}${chalk.yellow('████████████')}
-${chalk.gray('            ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀')}
+${chalk.green('                ██████████                ')}
+${chalk.green('             ████        ████             ')}
+${chalk.green('           ███              ███           ')}
+${chalk.green('         ███                  ███         ')}
+${chalk.green('        ██      ')}${chalk.gray('████████████')}${chalk.green('      ██        ')}
+${chalk.green('       ██     ')}${chalk.gray('██')}${chalk.green('          ')}${chalk.gray('██')}${chalk.green('     ██       ')}
+${chalk.green('      ██      ')}${chalk.gray('██')}${chalk.green('          ')}${chalk.gray('██')}${chalk.green('      ██      ')}
+${chalk.green('      ██      ')}${chalk.gray('██')}${chalk.green('   ████  ████ ')}${chalk.gray('██')}${chalk.green('      ██      ')}
+${chalk.green('      ██      ')}${chalk.gray('██')}${chalk.green('  ██  ████  ██')}${chalk.gray('██')}${chalk.green('      ██      ')}
+${chalk.green('       ██     ')}${chalk.gray('████████████')}${chalk.green('     ██       ')}
+${chalk.green('        ██                  ██        ')}
+${chalk.green('         ███                ███         ')}
+${chalk.green('           ███            ███           ')}
+${chalk.green('             ████      ████             ')}
+${chalk.green('                ██████████                ')}
+
+${chalk.bold.white('   R A M B O   C O D E   E X P E R T S')}
+${chalk.gray('   -----------------------------------')}
+${chalk.cyan('   Elite AI Agent Squadron — Mission: Code Excellence')}
 `;
 
 async function run() {
