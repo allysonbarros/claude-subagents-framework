@@ -22,6 +22,18 @@ Especializado em design de banco de dados e otimização de queries. Use para mo
 ### [Security Specialist](./security-specialist.md)
 Especializado em segurança de aplicações e OWASP. Use para implementar autenticação, autorização, proteção contra vulnerabilidades e criptografia.
 
+### [Supabase Specialist](./supabase-specialist.md)
+Especializado em desenvolvimento com Supabase (PostgreSQL, Auth, Storage, Edge Functions). Use para criar backends rapidamente com BaaS.
+
+### [Django Specialist](./django-specialist.md)
+Especializado em desenvolvimento web com Django framework. Use para criar aplicações completas com models, views, templates e REST APIs.
+
+### [FastAPI Specialist](./fastapi-specialist.md)
+Especializado em APIs modernas e assíncronas com FastAPI. Use para criar APIs de alta performance com validação automática e documentação.
+
+### [Flask Specialist](./flask-specialist.md)
+Especializado em aplicações web lightweight com Flask. Use para criar apps extensíveis com blueprints e extensions.
+
 ## Casos de Uso Comuns
 
 - Desenvolvimento de microserviços

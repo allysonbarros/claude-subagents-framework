@@ -22,6 +22,9 @@ Especializado em pesquisa e avaliação de tecnologias e bibliotecas. Use para c
 ### [Dependency Analyzer](./dependency-analyzer.md)
 Especializado em análise de dependências e supply chain security. Use para auditar vulnerabilidades, otimizar bundles e gerenciar updates.
 
+### [MCP Integrator](./mcp-integrator.md)
+Especializado em integração de serviços via Model Context Protocol (MCP). Use para conectar e configurar ferramentas via MCP.
+
 ## Casos de Uso Comuns
 
 - Onboarding em projetos existentes
