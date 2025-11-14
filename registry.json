@@ -1,6 +1,6 @@
 {
-  "version": "2.1.0",
-  "lastUpdated": "2025-11-05",
+  "version": "2.2.0",
+  "lastUpdated": "2025-11-14",
   "categories": [
     {
       "id": "strategists",
@@ -13,9 +13,9 @@
       "description": "Agentes especializados em exploração de código e pesquisa técnica"
     },
     {
-      "id": "designers",
-      "name": "Designers",
-      "description": "Agentes especializados em design de interface e experiência do usuário"
+      "id": "design-and-ux",
+      "name": "Design & UX",
+      "description": "Agentes especializados em design de interfaces, UX e conteúdo"
     },
     {
       "id": "frontend",
@@ -152,7 +152,7 @@
     {
       "id": "ui-designer",
       "name": "UI Designer",
-      "category": "designers",
+      "category": "design-and-ux",
       "version": "1.0.0",
       "description": "Especializado em design de interfaces de usuário e componentes visuais",
       "tags": [
@@ -166,7 +166,7 @@
     {
       "id": "ux-specialist",
       "name": "UX Specialist",
-      "category": "designers",
+      "category": "design-and-ux",
       "version": "1.0.0",
       "description": "Especializado em experiência do usuário e usabilidade",
       "tags": [
@@ -180,7 +180,7 @@
     {
       "id": "design-system-builder",
       "name": "Design System Builder",
-      "category": "designers",
+      "category": "design-and-ux",
       "version": "1.0.0",
       "description": "Especializado em criar e manter design systems escaláveis",
       "tags": [
@@ -683,6 +683,156 @@
         "orchestration",
         "design-patterns",
         "ai"
+      ]
+    },
+    {
+      "id": "system-architect",
+      "name": "System Architect",
+      "category": "strategists",
+      "version": "1.0.0",
+      "description": "Especializado em arquitetar sistemas escaláveis e resilientes com foco em design patterns",
+      "tags": [
+        "system-design",
+        "scalability",
+        "architecture",
+        "patterns",
+        "resilience",
+        "performance"
+      ]
+    },
+    {
+      "id": "code-refactorer",
+      "name": "Code Refactorer",
+      "category": "researchers",
+      "version": "1.0.0",
+      "description": "Especializado em refatoração de código seguindo princípios SOLID e design patterns",
+      "tags": [
+        "refactoring",
+        "solid",
+        "design-patterns",
+        "code-quality",
+        "maintainability"
+      ]
+    },
+    {
+      "id": "code-reviewer",
+      "name": "Code Reviewer",
+      "category": "researchers",
+      "version": "1.0.0",
+      "description": "Especializado em revisão de código, mentoria e análise de qualidade",
+      "tags": [
+        "code-review",
+        "mentoring",
+        "quality",
+        "best-practices",
+        "guidance",
+        "feedback"
+      ]
+    },
+    {
+      "id": "database-expert",
+      "name": "Database Expert",
+      "category": "backend",
+      "version": "1.0.0",
+      "description": "Especializado em design avançado de banco de dados e otimização de performance",
+      "tags": [
+        "database",
+        "optimization",
+        "indexing",
+        "schema-design",
+        "performance",
+        "replication"
+      ]
+    },
+    {
+      "id": "integration-master",
+      "name": "Integration Master",
+      "category": "backend",
+      "version": "1.0.0",
+      "description": "Especializado em integração de sistemas e design de APIs para comunicação entre serviços",
+      "tags": [
+        "integration",
+        "apis",
+        "webhooks",
+        "message-queues",
+        "circuit-breakers",
+        "orchestration"
+      ]
+    },
+    {
+      "id": "security-scanner",
+      "name": "Security Scanner",
+      "category": "backend",
+      "version": "1.0.0",
+      "description": "Especializado em scanning de vulnerabilidades e auditorias de segurança",
+      "tags": [
+        "security",
+        "vulnerabilities",
+        "scanning",
+        "owasp",
+        "penetration-testing",
+        "auditing"
+      ]
+    },
+    {
+      "id": "performance-engineer",
+      "name": "Performance Engineer",
+      "category": "frontend",
+      "version": "1.0.0",
+      "description": "Especializado em Web Vitals, otimização de bundle e análise de performance",
+      "tags": [
+        "performance",
+        "web-vitals",
+        "lcp",
+        "fid",
+        "cls",
+        "optimization",
+        "bundle-analysis"
+      ]
+    },
+    {
+      "id": "mobile-optimizer",
+      "name": "Mobile Optimizer",
+      "category": "frontend",
+      "version": "1.0.0",
+      "description": "Especializado em otimização para mobile e design responsivo",
+      "tags": [
+        "mobile",
+        "responsive-design",
+        "touch-interfaces",
+        "viewport",
+        "pwa",
+        "performance"
+      ]
+    },
+    {
+      "id": "test-generator",
+      "name": "Test Generator",
+      "category": "testers",
+      "version": "1.0.0",
+      "description": "Especializado em geração automática de testes e melhoria de cobertura",
+      "tags": [
+        "test-generation",
+        "coverage",
+        "automation",
+        "parametrization",
+        "mocking",
+        "quality"
+      ]
+    },
+    {
+      "id": "load-tester",
+      "name": "Load Tester",
+      "category": "devops",
+      "version": "1.0.0",
+      "description": "Especializado em testes de carga e análise de performance sob estresse",
+      "tags": [
+        "load-testing",
+        "stress-testing",
+        "spike-testing",
+        "soak-testing",
+        "scalability",
+        "performance"
       ]
     }
   ]

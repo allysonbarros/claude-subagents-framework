@@ -6,18 +6,20 @@
 
 ## Visão Geral
 
-Este repositório contém uma coleção curada de subagentes especializados que podem ser reutilizados em diferentes projetos. Os agentes estão organizados em 8 categorias principais, cada uma focada em um domínio específico do desenvolvimento de software.
+Este repositório contém uma coleção curada de subagentes especializados que podem ser reutilizados em diferentes projetos. Os agentes estão organizados em 10 categorias principais, cada uma focada em um domínio específico do desenvolvimento de software.
 
 ## Categorias de Agentes
 
-- **Estrategistas** (`agents/strategists/`) - Planejamento, arquitetura e decisões técnicas
-- **Pesquisadores** (`agents/researchers/`) - Exploração de código e pesquisa técnica
-- **Designers** (`agents/designers/`) - Design de interface e experiência do usuário
-- **Frontend** (`agents/frontend/`) - Desenvolvimento de interfaces e experiências web
-- **Backend** (`agents/backend/`) - APIs, serviços e lógica de negócio
-- **Testadores** (`agents/testers/`) - Testes automatizados e garantia de qualidade
-- **DevOps** (`agents/devops/`) - CI/CD, deployment e infraestrutura
-- **Analytics** (`agents/analytics/`) - Análise de dados e experimentos
+- **[Estrategistas](./agents/strategists/README.md)** - Planejamento, arquitetura e decisões técnicas
+- **[Pesquisadores](./agents/researchers/README.md)** - Exploração de código e pesquisa técnica
+- **[Design & UX](./agents/design-and-ux/README.md)** - Design systems, interfaces, UX e conteúdo
+- **[Frontend](./agents/frontend/README.md)** - Desenvolvimento de interfaces e experiências web
+- **[Backend](./agents/backend/README.md)** - APIs, serviços e lógica de negócio
+- **[Testadores](./agents/testers/README.md)** - Testes automatizados e garantia de qualidade
+- **[DevOps](./agents/devops/README.md)** - CI/CD, deployment e infraestrutura
+- **[Analytics](./agents/analytics/README.md)** - Análise de dados e experimentos
+- **[IA e Machine Learning](./agents/ai-ml/README.md)** - Sistemas de IA, LLMs, RAG e agentes autônomos
+- **[Data Engineering](./agents/data-engineering/README.md)** - Pipelines de dados, data warehousing e big data
 
 ## Quick Start
 

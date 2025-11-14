@@ -22,6 +22,12 @@ Especializado em pesquisa e avaliação de tecnologias e bibliotecas. Use para c
 ### [Dependency Analyzer](./dependency-analyzer.md)
 Especializado em análise de dependências e supply chain security. Use para auditar vulnerabilidades, otimizar bundles e gerenciar updates.
 
+### [Code Refactorer](./code-refactorer.md)
+Especializado em refatoração de código e melhoria de qualidade. Use para aplicar SOLID principles, eliminar code smells e refatorar código legado.
+
+### [Code Reviewer](./code-reviewer.md)
+Especializado em revisão de código e garantia de padrões. Use para revisar PRs, fornecer feedback construtivo e mentoriar desenvolvedores.
+
 ## Casos de Uso Comuns
 
 - Onboarding em projetos existentes

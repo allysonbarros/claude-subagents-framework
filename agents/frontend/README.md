@@ -22,6 +22,12 @@ Especializado em gerenciamento de estado com Redux, Zustand, Context API. Use pa
 ### [Performance Optimizer](./performance-optimizer.md)
 Especializado em otimização de performance e Core Web Vitals. Use para reduzir bundle size, otimizar re-renders e melhorar métricas de loading.
 
+### [Performance Engineer](./performance-engineer.md)
+Especializado em Web Vitals, bundle optimization e análise de performance. Use para LCP/FID/CLS, code splitting, caching e monitoramento contínuo.
+
+### [Mobile Optimizer](./mobile-optimizer.md)
+Especializado em otimização para dispositivos móveis e responsive design. Use para touch interfaces, viewport configuration, performance em mobile e PWAs.
+
 ## Casos de Uso Comuns
 
 - Desenvolvimento de SPAs

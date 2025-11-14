@@ -51,14 +51,16 @@ ${chalk.bold('Examples:')}
   ${chalk.cyan('rambo interactive')}             Interactive mode (recommended for beginners)
 
 ${chalk.bold('Categories:')}
-  ${chalk.green('strategists')}   - Planning and architecture
-  ${chalk.green('researchers')}   - Code exploration and research
-  ${chalk.green('designers')}     - UI/UX design
-  ${chalk.green('frontend')}      - Frontend development
-  ${chalk.green('backend')}       - Backend development
-  ${chalk.green('testers')}       - Testing and QA
-  ${chalk.green('devops')}        - CI/CD and infrastructure
-  ${chalk.green('analytics')}     - Analytics and experiments
+  ${chalk.green('strategists')}     - Planning and architecture
+  ${chalk.green('researchers')}     - Code exploration and research
+  ${chalk.green('design-and-ux')}   - UI/UX design and content
+  ${chalk.green('frontend')}        - Frontend development
+  ${chalk.green('backend')}         - Backend development
+  ${chalk.green('testers')}         - Testing and QA
+  ${chalk.green('devops')}          - CI/CD and infrastructure
+  ${chalk.green('analytics')}       - Analytics and experiments
+  ${chalk.green('ai-ml')}           - AI and machine learning
+  ${chalk.green('data-engineering')} - Data engineering and platforms
 
 ${chalk.bold('Learn more:')}
   GitHub: https://github.com/allysonbarros/claude-subagents-framework

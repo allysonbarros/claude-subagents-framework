@@ -22,6 +22,9 @@ Especializado em arquitetura de sistemas e decisões técnicas de alto nível. U
 ### [API Designer](./api-designer.md)
 Especializado em design de APIs RESTful e GraphQL. Use para criar especificações de API consistentes e bem documentadas.
 
+### [System Architect](./system-architect.md)
+Especializado em projetar arquiteturas de sistemas escaláveis e resilientes. Use para design arquitetural, diagramas C4, padrões de escalabilidade e disaster recovery.
+
 ## Casos de Uso Comuns
 
 - Início de novos projetos

@@ -22,6 +22,9 @@ Especializado em Docker e containerização. Use para criar Dockerfiles otimizad
 ### [Infrastructure Engineer](./infrastructure-engineer.md)
 Especializado em infraestrutura como código e Kubernetes. Use para provisionar recursos com Terraform, configurar clusters K8s e gerenciar cloud infrastructure.
 
+### [Load Tester](./load-tester.md)
+Especializado em testes de carga e análise de performance sob estresse. Use para load testing, spike testing, soak testing e validação de escalabilidade.
+
 ## Casos de Uso Comuns
 
 - Setup de pipelines

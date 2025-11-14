@@ -22,6 +22,9 @@ Especializado em testes end-to-end com Cypress e Playwright. Use para implementa
 ### [Test Strategist](./test-strategist.md)
 Especializado em estratégia de testes e qualidade. Use para definir test pyramids, configurar CI, estabelecer quality gates e otimizar suites de teste.
 
+### [Test Generator](./test-generator.md)
+Especializado em geração automática de testes e melhoria de cobertura. Use para criar suites de teste, parametrização, mocking e análise de coverage.
+
 ## Casos de Uso Comuns
 
 - Aumento de cobertura de testes
